@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body {
+	width: 80%;
+	margin: 40px auto;
+}
+
+
+/*-------------------------------------Nav-----------------------------------------*/
+nav a {
+	background-color: #faffd6;
+	padding: 5px;
+	color: black;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #2653ad;
+}
+
+
+
+/*-------------------------------------Main-----------------------------------------*/
+main{
+	margin-top: 10px;
+}
+
+
+
+
+.each_article {
+	background-color: #d7e9f5;
+	margin: 10px 0 10px;
+	padding: 15px;
+	border-radius: 20px;
+
+}
+h2 {
+	margin-bottom: 5px;
+}
+.isi {
+	margin-bottom: 5px;
+}
+
+.time, .tag {
+	font-size: 12px;
+}
+
+#error {
+	background-color: #d16145;
+	margin-bottom: 5px;
+}
+
+/*---------------------------------------Halaman single.php------------------------------*/
+. menu {
+	background-color: #d8e1f0;
+	color: red;
+
+}
+
+.single_menu {
+	margin-top: 20px;
+	background-color: #d8e1f0;	
+}
+
+.single_menu h2 {
+	text-decoration: underline;
+	margin-bottom: 8px;
+}
+
+.single_isi {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.single_tag, .single_time {
+	font-size: 12px;
+}
+.single_tag {
+	margin-bottom: 5px;
+}
+
+/*----------------------------------------Footer----------------------------*/
+footer{
+	margin-top: 10px;
+	text-align: center;
+	border-top: 5px solid gray;
+}
+
+footer p {
+	margin-top: 10px;
+}

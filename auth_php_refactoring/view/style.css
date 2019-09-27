@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body {
+	width: 80%;
+	margin: 40px auto;
+}
+
+header {
+	border-bottom: 2px solid gray;
+	padding: 5px;
+	margin-bottom: 20px; 
+}
+
+footer {
+	text-align: center;
+	border-top: 2px solid gray;
+	padding: 5px;
+	margin-top: 20px; 
+
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	margin:0 3px 2px;
+	padding: 5px;
+	background-color: salmon;
+
+}
+
+ul li a {
+	text-decoration: none;
+}
+
+.error{
+	background-color: #e0424a;
+	color: white;
+	padding: 5px;
+}
+
+	
